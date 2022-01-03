@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     app:cardCornerRadius="4dp"
     android:layout_margin="4dp">
@@ -12,8 +12,9 @@
 
         <ImageView
             android:id="@+id/dishImageView"
-            android:layout_width="220dp"
-            android:layout_height="220dp"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:contentDescription="dishImage"
             android:padding="4dp" />
 
         <TextView
