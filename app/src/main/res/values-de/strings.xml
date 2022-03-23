@@ -1,10 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">My favorite recipes</string>
+    <string name="app_name">Meine Lieblingsrezepte</string>
 
-    <string name="pizza_1_title">Caramelised onion &amp; goat\'s cheese pizza</string>
-    <string name="pizza_1_description">Make a veggie pizza that\'s healthy and low-fat instead of ordering a takeaway.
-        This easy recipe uses goat\'s cheese for tang while the onions give it sweetness…";
-   </string>
+    <string name="pizza_1_title">Pizza mit karamellisierten Zwiebeln und Ziegenkäse</string>
+    <string name="pizza_1_description">Machen Sie eine vegetarische Pizza, die gesund und fettarm ist, anstatt einen Imbiss zu bestellen.
+         Dieses einfache Rezept verwendet Ziegenkäse für den Geschmack, während die Zwiebeln ihm Süße verleihen…</string>
 
     <string name="pizza_2_title">BBQ chicken pizza</string>
     <string name="pizza_2_description">Make a healthy, low-calorie pizza that adds up to three of your 5-a-day

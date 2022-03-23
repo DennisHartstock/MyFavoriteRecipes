@@ -1,10 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">My favorite recipes</string>
+    <string name="app_name">Мои любимые рецепты</string>
 
-    <string name="pizza_1_title">Caramelised onion &amp; goat\'s cheese pizza</string>
-    <string name="pizza_1_description">Make a veggie pizza that\'s healthy and low-fat instead of ordering a takeaway.
-        This easy recipe uses goat\'s cheese for tang while the onions give it sweetness…";
-   </string>
+    <string name="pizza_1_title">Пицца с карамелизированным луком и козьим сыром</string>
+    <string name="pizza_1_description">Приготовьте вегетарианскую пиццу, которая будет полезной и нежирной, вместо того, чтобы заказывать еду на вынос.
+         В этом простом рецепте используется козий сыр для пикантности, а лук придает ему сладость…</string>
 
     <string name="pizza_2_title">BBQ chicken pizza</string>
     <string name="pizza_2_description">Make a healthy, low-calorie pizza that adds up to three of your 5-a-day

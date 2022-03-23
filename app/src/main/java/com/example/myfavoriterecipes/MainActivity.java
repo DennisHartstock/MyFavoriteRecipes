@@ -24,19 +24,44 @@ public class MainActivity extends AppCompatActivity {
 
         ArrayList<RecipeItem> recipeItems = new ArrayList<>();
         recipeItems.add(new RecipeItem(R.drawable.pizza_1,
-                Utils.PIZZA_1_TITLE, Utils.PIZZA_1_DESCRIPTION, Utils.PIZZA_1_INGREDIENTS, Utils.PIZZA_1_RECIPE));
+                getResources().getString(R.string.pizza_1_title), getResources().getString(R.string.pizza_1_description),
+                Utils.PIZZA_1_INGREDIENTS, Utils.PIZZA_1_RECIPE));
 
         recipeItems.add(new RecipeItem(R.drawable.pizza_2,
-                Utils.PIZZA_2_TITLE, Utils.PIZZA_2_DESCRIPTION, Utils.PIZZA_1_INGREDIENTS, Utils.PIZZA_2_RECIPE));
+                getResources().getString(R.string.pizza_2_title), getResources().getString(R.string.pizza_2_description),
+                Utils.PIZZA_1_INGREDIENTS, Utils.PIZZA_2_RECIPE));
 
         recipeItems.add(new RecipeItem(R.drawable.pizza_3,
-                Utils.PIZZA_3_TITLE, Utils.PIZZA_3_DESCRIPTION, Utils.PIZZA_1_INGREDIENTS, Utils.PIZZA_3_RECIPE));
+                getResources().getString(R.string.pizza_3_title), getResources().getString(R.string.pizza_3_description),
+                Utils.PIZZA_1_INGREDIENTS, Utils.PIZZA_3_RECIPE));
 
         recipeItems.add(new RecipeItem(R.drawable.pizza_4,
-                Utils.PIZZA_4_TITLE, Utils.PIZZA_4_DESCRIPTION, Utils.PIZZA_1_INGREDIENTS, Utils.PIZZA_4_RECIPE));
+                getResources().getString(R.string.pizza_4_title), getResources().getString(R.string.pizza_4_description),
+                Utils.PIZZA_1_INGREDIENTS, Utils.PIZZA_4_RECIPE));
 
         recipeItems.add(new RecipeItem(R.drawable.pizza_5,
-                Utils.PIZZA_5_TITLE, Utils.PIZZA_5_DESCRIPTION, Utils.PIZZA_1_INGREDIENTS, Utils.PIZZA_5_RECIPE));
+                getResources().getString(R.string.pizza_5_title), getResources().getString(R.string.pizza_5_description),
+                Utils.PIZZA_1_INGREDIENTS, Utils.PIZZA_5_RECIPE));
+
+        recipeItems.add(new RecipeItem(R.drawable.pizza_5,
+                getResources().getString(R.string.pizza_6_title), getResources().getString(R.string.pizza_6_description),
+                Utils.PIZZA_1_INGREDIENTS, Utils.PIZZA_5_RECIPE));
+
+        recipeItems.add(new RecipeItem(R.drawable.pizza_5,
+                getResources().getString(R.string.pizza_7_title), getResources().getString(R.string.pizza_7_description),
+                Utils.PIZZA_1_INGREDIENTS, Utils.PIZZA_5_RECIPE));
+
+        recipeItems.add(new RecipeItem(R.drawable.pizza_5,
+                getResources().getString(R.string.pizza_8_title), getResources().getString(R.string.pizza_8_description),
+                Utils.PIZZA_1_INGREDIENTS, Utils.PIZZA_5_RECIPE));
+
+        recipeItems.add(new RecipeItem(R.drawable.pizza_5,
+                getResources().getString(R.string.pizza_9_title), getResources().getString(R.string.pizza_9_description),
+                Utils.PIZZA_1_INGREDIENTS, Utils.PIZZA_5_RECIPE));
+
+        recipeItems.add(new RecipeItem(R.drawable.pizza_5,
+                getResources().getString(R.string.pizza_10_title), getResources().getString(R.string.pizza_10_description),
+                Utils.PIZZA_1_INGREDIENTS, Utils.PIZZA_5_RECIPE));
 
         recyclerView = findViewById(R.id.recyclerView);
         recyclerView.setHasFixedSize(true);
